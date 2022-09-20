@@ -173,6 +173,7 @@ input, select {
         width: calc((100% - 40px) / 2);
         padding-right: 40px;
         margin-top: 30px;
+        aspect-ratio: 335 / 412;
     }
     .problem__item:nth-of-type(2n) {
         padding-right: 0;
