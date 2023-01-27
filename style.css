@@ -116,14 +116,15 @@ input, select {
 }
 .problem__title-inner {
     margin-bottom: 3.5vw;
+    font-size: clamp(1.438rem, 0.938rem + 1.04vw, 1.875rem);
 }
 .problem__sub-title {
     font-weight: bold;
     color: blue;
+    font-size: 75%;
 }
 .problem__title {
     display: inline-block;
-    font-size: clamp(1.438rem, 0.938rem + 1.04vw, 1.875rem);
     font-weight: bold;
     padding-left: 10px;
 }
