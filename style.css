@@ -106,22 +106,24 @@ input, select {
 }
 /* 以上リセットCSS */
 
+/******************
+* problem
+******************/
 .problem {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px 1vw;
 }
 .problem__title-inner {
-    margin-bottom: 50px;
+    margin-bottom: 3.5vw;
 }
 .problem__sub-title {
-    font-size: 20px;
     font-weight: bold;
     color: blue;
 }
 .problem__title {
     display: inline-block;
-    font-size: 30px;
+    font-size: clamp(1.438rem, 0.938rem + 1.04vw, 1.875rem);
     font-weight: bold;
     padding-left: 10px;
 }
@@ -140,6 +142,7 @@ input, select {
 }
 .problem__order {
     color: blue;
+    font-size: clamp(2.188rem, 1.116rem + 2.23vw, 3.125rem);
 }
 .problem__item-text {
     font-weight: bold;
